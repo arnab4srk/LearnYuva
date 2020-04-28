@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> LearnYuva | Igniting Young Minds</title>
+        <link rel="shortcut icon" type="image/x-icon" href="/Assets/Images/favicon.ico" />
+        <link rel="stylesheet" href="/css/styles.css" type="text/css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body style="background-color: #1E56A0;">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand h1" href="#">
+          <div class="logo">
+            <img src="Assets/Images/logoWhite.png" height="60px" width="47px">
+            <img src="Assets/Images/textWhite.png" height="40px" width="116px" class="my-auto">
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="Navbar">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Join Us
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#" id="login">Login</a>
+                <a class="dropdown-item" href="#" id="signUp">Sign Up</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Modal Login -->
+      <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-md modal-dialog-centered" role="content">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="logo">
+                <img src="Assets/Images/logoImg.png" height="60px" width="47px">
+                <img src="Assets/Images/logoText.png" height="40px" width="116px" class="my-auto">
+              </div>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="row justify-content-center">
+                <div class=" ">
+                  <form id="loginDetails">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="username" placeholder="Enter your Username">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control" id="password" placeholder = "Enter your password">
+                    </div>
+                    <div class="form-group">
+                      <a href=""><button class="btn btn-outline-dark">Login</button></a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Modal-->
+    
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h2>LearnYuva</h2>
+            <h5>Igniting Young Minds</h5>
+          </div>
+          <div class="col-sm-6">
+            <p>
+              Been looking for quality content that can make you smart enough to confidently present yourself before the contemporary world? You are at the right destination. Keep your eyes peeled and make the most out of this opportunity that has knocked your door!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Jumbotron Ends-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h4 class="text-center">
+            Languages
+          </h4>
+          <hr class="my-4">
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="https://www.iwillteachyoualanguage.com/wp-content/uploads/2013/07/spanish-words-i-couldnt-live-without.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Spanish</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe, ipsum aliquam minus commodi iste possimus necessitatibus voluptatem. Cum itaque perspiciatis, sapiente aliquid voluptatem repellendus delectus? Error iure labore et. </p>
+              <!--a href="#" class="btn btn-primary">Go somewhere</a-->
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="https://1.bp.blogspot.com/-wNhxS1mbZwM/UiFnI7oOOgI/AAAAAAAAAx8/YfwJYUUMHzs/s1600/Screen+Shot+2013-08-28+at+12.12.42+PM.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">French</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe, ipsum aliquam minus commodi iste possimus necessitatibus voluptatem. Cum itaque perspiciatis, sapiente aliquid voluptatem repellendus delectus? Error iure labore et. </p>
+              <!--a href="#" class="btn btn-primary">Go somewhere</a-->
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="https://www.u4.ugent.be/images/U4/basics/wordle.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">German</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus saepe, ipsum aliquam minus commodi iste possimus necessitatibus voluptatem. Cum itaque perspiciatis, sapiente aliquid voluptatem repellendus delectus? Error iure labore et. </p>
+              <!--a href="#" class="btn btn-primary">Go somewhere</a-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h4 class="text-center">
+            Technical
+          </h4>
+          <hr class="my-4">
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Web Dev">
+            <div class="card-body">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptates maxime facilis quam, laudantium rem libero dolor, dolores placeat nihil temporibus voluptas ipsum fugiat atque perspiciatis, dicta harum inventore odio.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="https://cdn.pixabay.com/photo/2019/08/06/22/48/artificial-intelligence-4389372_1280.jpg" alt="AI/ML">
+            <div class="card-body">
+              <h5 class="card-title">AI/ML</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptates maxime facilis quam, laudantium rem libero dolor, dolores placeat nihil temporibus voluptas ipsum fugiat atque perspiciatis, dicta harum inventore odio.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="https://images.pexels.com/photos/139387/pexels-photo-139387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Digital Marketing">
+            <div class="card-body">
+              <h5 class="card-title">Digital Marketing</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptates maxime facilis quam, laudantium rem libero dolor, dolores placeat nihil temporibus voluptas ipsum fugiat atque perspiciatis, dicta harum inventore odio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="row justify-content-center" style="margin-top: 20px;">             
+          <div class="col-auto">
+            <p class="align-bottom">© 2020 LearnYuva.live All rights reserved</p>
+          </div>
+        </div>
+    </footer>
+    <!--Footer Ends-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="/js/scripts.js"></script>
+  </body>
+</html>
